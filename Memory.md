@@ -1,5 +1,12 @@
 # Memory File for PHP-Examples Repository
 
+## Maintainer
+
+Meet Solanki
+Email: meetsolanki140@gmail.com
+Phone: +91 6353877251
+Address: Bapunagar, Ahmedabad - 380024
+
 ## Project Requirements
 
 1. Create a comprehensive PHP learning repository

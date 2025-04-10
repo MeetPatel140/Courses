@@ -2,6 +2,13 @@
 
 Welcome to the PHP Examples Repository! This repository serves as a comprehensive learning resource for PHP web development, designed for students and instructors. It contains working code examples covering all essential concepts of PHP programming and web development.
 
+## Maintainer
+
+Meet Solanki
+Email: meetsolanki140@gmail.com
+Phone: +91 6353877251
+Address: Bapunagar, Ahmedabad - 380024
+
 ## Repository Structure
 
 The repository is organized in a hierarchical structure, with each concept having its own dedicated folder. The main categories include:
