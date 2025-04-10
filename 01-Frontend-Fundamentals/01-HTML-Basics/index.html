@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for proper character encoding and responsive viewport -->
+    <meta charset="UTF-8"> <!-- Defines the character encoding for the document as UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the webpage responsive on different devices -->
+    <title>HTML5 Basics</title> <!-- Sets the title that appears in browser tab -->
+</head>
+<body>
+    <!-- Header section of the webpage -->
+    <header>
+        <h1>Learning HTML5 Basics</h1> <!-- Main heading of the page -->
+        <nav>
+            <!-- Navigation menu using semantic HTML5 nav element -->
+            <ul>
+                <!-- List of navigation links -->
+                <li><a href="#structure">HTML Structure</a></li> <!-- Internal link to structure section -->
+                <li><a href="#elements">Basic Elements</a></li>   <!-- Internal link to elements section -->
+                <li><a href="#forms">HTML Forms</a></li>         <!-- Internal link to forms section -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Section about HTML structure -->
+        <section id="structure">
+            <h2>HTML Document Structure</h2>
+            <p>This is a paragraph element. <!-- Basic text content container -->
+               HTML documents follow a standard structure with elements like:
+            </p>
+            <ul>
+                <!-- List showing HTML structural elements -->
+                <li>&lt;!DOCTYPE html&gt; - Declares HTML5 document type</li>
+                <li>&lt;html&gt; - Root element of the page</li>
+                <li>&lt;head&gt; - Contains metadata about the document</li>
+                <li>&lt;body&gt; - Contains the visible page content</li>
+            </ul>
+        </section>
+
+        <!-- Section about basic HTML elements -->
+        <section id="elements">
+            <h2>Basic HTML Elements</h2>
+            <!-- Text formatting examples -->
+            <p>Text can be <strong>bold</strong> or <em>emphasized</em></p> <!-- strong makes text bold, em makes text italic -->
+            
+            <!-- Image example -->
+            <img src="html5-logo.svg" alt="HTML5 Logo"> <!-- Image element with alt text for accessibility -->
+            
+            <!-- Link example -->
+            <a href="https://www.w3.org/" target="_blank">Visit W3C Website</a> <!-- External link that opens in new tab -->
+        </section>
+
+        <!-- Section demonstrating HTML forms -->
+        <section id="forms">
+            <h2>HTML Forms</h2>
+            <form action="/submit" method="POST"> <!-- Form element with action and method attributes -->
+                <!-- Text input field -->
+                <div class="form-group">
+                    <label for="name">Name:</label> <!-- Label for the input field -->
+                    <input type="text" id="name" name="name" required> <!-- Text input with required attribute -->
+                </div>
+
+                <!-- Email input field -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required> <!-- Email input with validation -->
+                </div>
+
+                <!-- Radio buttons -->
+                <div class="form-group">
+                    <p>Select your favorite web language:</p>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit">Submit Form</button> <!-- Button to submit the form -->
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Web Development Course</p> <!-- Copyright notice with current year -->
+    </footer>
+</body>
+</html>

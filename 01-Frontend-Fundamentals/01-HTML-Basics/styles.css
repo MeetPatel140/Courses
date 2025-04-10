@@ -1,0 +1,91 @@
+/* Main styles for HTML5 Basics example */
+
+/* Reset default margins and padding for consistent layout */
+* {
+    margin: 0;          /* Removes default margin from all elements */
+    padding: 0;         /* Removes default padding from all elements */
+    box-sizing: border-box; /* Includes padding and border in element's total width and height */
+}
+
+/* Body styles for overall page layout */
+body {
+    font-family: Arial, sans-serif; /* Sets the primary and fallback fonts */
+    line-height: 1.6;    /* Sets line spacing to 1.6 times the font size */
+    padding: 20px;       /* Adds space around the entire content */
+    max-width: 800px;    /* Limits content width for better readability */
+    margin: 0 auto;      /* Centers the content horizontally */
+}
+
+/* Header styles */
+header {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;             /* Adds space inside the header */
+    border-radius: 5px;        /* Rounds the corners */
+    margin-bottom: 30px;       /* Adds space below the header */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;   /* Removes bullet points from the list */
+    display: flex;       /* Creates a horizontal flex container */
+    gap: 20px;          /* Adds space between navigation items */
+}
+
+nav a {
+    color: #333;        /* Dark gray text color */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #0066cc;     /* Blue color when hovering over links */
+}
+
+/* Section styles */
+section {
+    background-color: white; /* White background for sections */
+    padding: 20px;          /* Adds space inside sections */
+    margin-bottom: 20px;    /* Adds space between sections */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;     /* Rounds the corners */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px; /* Adds space between form groups */
+}
+
+label {
+    display: block;     /* Makes labels appear on their own line */
+    margin-bottom: 5px;  /* Adds space below labels */
+    font-weight: bold;   /* Makes label text bold */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;        /* Makes inputs full width */
+    padding: 8px;       /* Adds space inside inputs */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px;  /* Rounds the corners */
+}
+
+button {
+    background-color: #0066cc; /* Blue background */
+    color: white;             /* White text */
+    padding: 10px 20px;       /* Adds space inside button */
+    border: none;             /* Removes default border */
+    border-radius: 4px;       /* Rounds the corners */
+    cursor: pointer;          /* Shows pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0052a3; /* Darker blue on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;  /* Centers footer text */
+    padding: 20px;       /* Adds space inside footer */
+    color: #666;         /* Gray text color */
+    font-size: 0.9em;    /* Slightly smaller font size */
+}

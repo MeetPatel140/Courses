@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for proper character encoding and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <h1>JavaScript DOM Manipulation</h1>
+        <nav class="nav">
+            <!-- Navigation menu -->
+            <a href="#selectors">DOM Selectors</a>
+            <a href="#events">Event Handling</a>
+            <a href="#manipulation">DOM Manipulation</a>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="main-content">
+        <!-- DOM Selectors section -->
+        <section id="selectors" class="demo-section">
+            <h2>DOM Selectors</h2>
+            <!-- Elements for demonstrating different selector methods -->
+            <div class="selector-demo">
+                <p id="unique-p">Selected by ID</p>
+                <p class="demo-class">Selected by Class</p>
+                <p class="demo-class">Another with same class</p>
+                <div data-test="selector">Selected by data attribute</div>
+            </div>
+            <button onclick="demonstrateSelectors()">Try Selectors</button>
+        </section>
+
+        <!-- Event Handling section -->
+        <section id="events" class="demo-section">
+            <h2>Event Handling</h2>
+            <!-- Elements for demonstrating event handling -->
+            <div class="event-demo">
+                <button id="click-btn">Click Me</button>
+                <input type="text" id="input-field" placeholder="Type something...">
+                <div id="mouse-area" class="mouse-area">Hover over me</div>
+                <p id="event-output">Event output will appear here</p>
+            </div>
+        </section>
+
+        <!-- DOM Manipulation section -->
+        <section id="manipulation" class="demo-section">
+            <h2>DOM Manipulation</h2>
+            <!-- Elements for demonstrating DOM manipulation -->
+            <div class="manipulation-demo">
+                <div id="content-div">Original Content</div>
+                <button id="add-btn">Add Element</button>
+                <button id="modify-btn">Modify Content</button>
+                <button id="style-btn">Change Style</button>
+                <div id="dynamic-content"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <p>&copy; 2024 JavaScript Basics Tutorial</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Memory File for PHP-Examples Repository
+# Memory File for Web Development using PHP
 
 ## Maintainer
 
@@ -9,83 +9,65 @@ Address: Bapunagar, Ahmedabad - 380024
 
 ## Project Requirements
 
-1. Create a comprehensive PHP learning repository
-2. Include working code examples for:
-   - PHP core concepts
-   - HTML integration
-   - CSS styling
-   - JavaScript functionality
-   - MySQL database (XAMPP server)
-3. Organize content in tree-type hierarchy with prefixed topics
-4. Each concept should have its own folder
-5. Small, focused code snippets in each folder
-6. Detailed documentation including:
+1. Create a comprehensive web development repository with PHP backend
+2. Include working code examples with detailed inline comments showing results for:
+   - Frontend (HTML, CSS, JavaScript)
+   - Backend (PHP)
+   - Database (MySQL with XAMPP)
+3. Organize content in practical web development topics
+4. Each concept should have its own folder with focused examples
+5. Every code file must include:
+   - Detailed inline comments explaining each line
+   - Comments showing expected values and results
+   - Block comments explaining the concept
+   - Example output or expected behavior
+6. Documentation requirements:
    - README files at all levels
-   - Folder documentation
-   - Code block comments
-   - Inline code comments
-7. Course-like structure for easy reference
+   - Step-by-step explanations
+   - Code comments showing variable values
+7. Focus on practical web development scenarios
 8. Public GitHub repository
 
 ## Repository Structure Plan
 
-1. Basic PHP Concepts
-   - Syntax
-   - Variables
-   - Data Types
-   - Operators
+1. Frontend Fundamentals
+   - HTML5 Structure and Elements
+   - CSS3 Styling and Layout
+   - JavaScript Basics
+   - DOM Manipulation
+   - Form Handling
+   - Frontend Validation
+
+2. PHP Backend Development
+   - Basic Syntax and Variables
    - Control Structures
-   - Functions
-   - Arrays
-   - String Manipulation
-
-2. Object-Oriented PHP
-   - Classes and Objects
-   - Inheritance
-   - Encapsulation
-   - Polymorphism
-   - Interfaces
-   - Traits
-   - Namespaces
-
-3. Web Development Basics
-   - HTML Forms
-   - GET/POST Methods
-   - Sessions
-   - Cookies
+   - Functions and Arrays
+   - Form Processing
    - File Handling
    - Error Handling
 
-4. Database Integration
-   - MySQL Connection
+3. Database Integration
+   - MySQL Setup with XAMPP
+   - Database Operations
+   - PHP-MySQL Connection
    - CRUD Operations
-   - Prepared Statements
-   - Transactions
-   - Error Handling
+   - Form-Database Integration
 
-5. Advanced Concepts
-   - Security Best Practices
-   - API Development
-   - Authentication
+4. Dynamic Web Features
+   - User Authentication
+   - Session Management
+   - AJAX Interactions
+   - API Integration
    - File Uploads
-   - Email Handling
-   - Regular Expressions
+   - Data Validation
 
-6. Frontend Integration
-   - HTML5 Features
-   - CSS3 Styling
-   - JavaScript Basics
-   - AJAX
-   - jQuery
-   - Form Validation
-
-7. Modern PHP Development
-   - Composer
-   - PSR Standards
-   - MVC Pattern
-   - REST APIs
-   - JSON Processing
-   - XML Handling
+5. Practical Projects
+   - Contact Form
+   - User Registration System
+   - Product Catalog
+   - Shopping Cart
+   - Admin Dashboard
+   - Blog System
 
 ## Progress Tracking
 
